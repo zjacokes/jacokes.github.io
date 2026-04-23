@@ -451,7 +451,7 @@
 <header class="hero">
     <h1 class="fade-in"><strong>Zachary Jacokes</strong></h1>
     <p class="positioning fade-in">
-        I'm a data scientist and neuroscientist who builds scalable, reproducible systems to extract reliable structure from complex, high-dimensional data—translating noisy clinical and biomedical datasets into interpretable, real-world insights.
+        I'm a data scientist and neuroscientist who builds scalable, reproducible systems to extract reliable structure from complex, high-dimensional data. I transmute the noise in clinical and biomedical datasets into interpretable, real-world insights.
     </p>
     <p class="personal fade-in">
         Outside of work, I'm a father of two young boys and a basketball and tennis enthusiast. I enjoy thoughtful conversations and welcome opportunities to connect.
@@ -478,11 +478,53 @@
 
 <!-- ABOUT -->
 <section id="about">
-    <div class="section-label">About</div>
+    <div class="section-label">About Me</div>
     <div class="about-content">
-        <div class="about-placeholder">
-            <!-- REPLACE THIS DIV with your about narrative in <p> tags -->
-            Your about narrative goes here. Replace this placeholder with a few paragraphs about your background, research journey, and what you're looking for next.
+        <div class="about-text">
+            <p>
+                I used to think the beauty of data science was in the arc: raw data in, clean result out, story told. And that instinct wasn't exactly wrong, but it was a naïve version you believe before you've spent years inside real datasets.
+            </p>   
+            <p>
+                What I've actually learned is that the interesting part isn't the trajectory. It's the process of building everything so the structure holds up. The pipeline that makes an analysis repeatable across multiple sites. The quality checks that catch when a scanner drifts. The database design that means a clinician in Seattle and a clinician in Los Angeles are actually recording the same thing. That's where the real work lives.
+            </p>
+            <h3>How I got here</h3>
+            <p>
+                I studied psychology at Emory, originally out of curiosity about how the mind works. What actually grabbed me wasn't the clinical side, though; it was the methodology. The studies that stuck with me were the ones with disciplined design, and I got more interested in that than in the findings themselves.
+            </p>
+            <p>
+                At Georgia Tech, I worked on a computational experiment using expectation-maximization to model social smiling behavior, and that was the moment machine learning clicked. Not just conceptually, but a tool you could point at a messy problem and get structure out of.
+            </p>
+            <p>
+                After that, the direction was pretty clear. I wanted to be the person who makes the analysis possible, not just the person who runs it.
+            </p>    
+            <h3>The multi-site years</h3>
+            <p>
+                I spent four years at USC's Lab of Neuroimaging working as part of a data coordination center for a multi-site study. The job was making sure data collected by different teams, on different scanners, in different cities could be compared meaningfully. Building workflows, running quality control, constantly asking whether the variation in a dataset is telling you something about biology or just about which MRI machine someone happened to use.
+            </p>
+            <p>
+                At UVA, I took that a step further and built systems from scratch: REDCap databases for dozens of clinical instruments, automated preprocessing pipelines, HIPAA-compliant data handling, the whole stack. I trained clinical staff; I wrote the documentation; I was the person who got the call when something broke. Most people touch one piece of a data pipeline. I've worked across all of it, from data entry to model output.
+            </p>
+            <h3>The PhD</h3>
+            <p>
+                I already knew how to build infrastructure, so the doctorate wasn't a pivot. It was about going deeper on what happens inside that infrastructure. How to represent and model high-dimensional biomedical data, and, importantly, how you know whether what you've found is real.
+            </p>
+            <p>
+                My research boils down to one question: can you extract reliable signal from noisy, heterogeneous, multi-site clinical data? That touches dimensionality reduction, spectral embeddings, cross-site harmonization, and brain-behavior modeling, but the common thread is skepticism. When you're working with data from multiple sites, the hardest problem is figuring out whether the pattern you found would survive a different scanner, a different cohort, or a different Tuesday. Once that’s clear, modeling becomes a question of fit, not faith.
+            </p>
+            <h3>What I do</h3>
+            <p>
+                I build and run data systems in biomedical environments where nothing is simple: multi-site studies, inconsistent inputs, regulatory constraints, and evolving scientific questions. I've published 14 peer-reviewed papers and a book chapter, presented at international conferences, built large-scale data pipelines, and mentored students and staff along the way.
+            </p>
+            <p>
+                The ethos that defines how I work is this: I don't treat modeling as separate from data infrastructure. If the data feeding your model aren't trustworthy, the model doesn't matter. If the result doesn't generalize past the dataset that produced it, you haven't learned anything. And if the whole system falls apart when you're not watching it, it’s not a system. 
+            </p>
+            <h3>What's next</h3>
+            <p>
+                I'm drawn to problems where the answers aren't settled. Real-world evidence, neurotechnology, clinical data platforms; places where the data are messy because the biology is messy. Those are the environments where careful infrastructure and honest modeling matter most.
+            </p>
+            <p>
+                The version of me who wrote a grad school application once said he wanted to “participate in the data revolution.” I still like the energy of that, even if I'd phrase it differently now. These days, the goal is more specific: build systems and models that make complex data usable reliably, at scale, and without anyone having to hold them together by hand.
+            </p> 
         </div>
     </div>
 </section>
@@ -498,28 +540,28 @@
             <div class="pub-title"><a href="#">Autism Sensory Profiles Predict Stimulus-Evoked Insula Connectivity</a></div>
             <div class="pub-authors"><span class="me">Jacokes Z</span>, Beeler-Duden S, Lawson S, et al.</div>
             <div class="pub-venue">MedRxiv (preprint)</div>
-            <div class="pub-desc">Topography-aware brain–behavior data integration linking sensory phenotypes to circuit-level connectivity patterns.</div>
+            <div class="pub-desc">Topography-aware brain–behavior data integration. Links individual differences in sensory sensitivity to how the brain dynamically coordinates information during social perception, and shows that sensory traits map onto context-dependent brain network changes.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="https://doi.org/10.1142/9789819807024_0044">Unsupervised Dimensionality Reduction Techniques for the Assessment of ASD Biomarkers</a></div>
             <div class="pub-authors"><span class="me">Jacokes Z</span>, Adoremos I, Hussain AR, Newman BT, Pelphrey KA, Van Horn JD, &amp; the ACE GENDAAR Consortium.</div>
             <div class="pub-venue">Biocomputing 2025. World Scientific; 2024:614–630.</div>
-            <div class="pub-desc">Representation learning framework for identifying reproducible high-dimensional biomarkers across heterogeneous clinical datasets.</div>
+            <div class="pub-desc">Representation learning framework; tests how different dimensionality reduction methods behave across heterogeneous clinical datasets, showing that the structure of the data determines whether meaningful biomarkers can be recovered.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="https://doi.org/10.3389/fnins.2022.1040085">Linear Discriminant Analysis of Phenotypic Data for Classifying Autism Spectrum Disorder by Diagnosis and Sex</a></div>
             <div class="pub-authors"><span class="me">Jacokes Z</span>, Jack A, Sullivan CAW, Aylward E, Bookheimer SY, Dapretto M, et al.</div>
             <div class="pub-venue">Frontiers in Neuroscience. 2022;16:1040085.</div>
-            <div class="pub-desc">Applied ML framework for generalizable classification with rigorous cross-validation across multi-site clinical cohorts.</div>
+            <div class="pub-desc">Used behavioral data from multiple sites to show that autism differences are structured along interpretable dimensions, especially diagnosis and sex, rather than being random or easily separable into clean groups.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">The Neuroimaging Challenges in Hemispherectomy Patients</a></div>
             <div class="pub-authors"><span class="me">Jacokes Z</span>, Bhattrai A, Torgerson C, Zywiec A, Abe S, Irimia A, Law M, Hazany S, Van Horn J.</div>
             <div class="pub-venue">Traumatic Brain Injury: Rehabilitation, Treatment, and Case Management, 4th Ed. 2017; Ch. 12, pp. 167–178.</div>
-            <div class="pub-desc">Systematic analysis of neuroimaging methodological challenges in rare surgical populations.</div>
+            <div class="pub-desc">Outlines why standard brain imaging methods often fail in extreme clinical cases and proposes practical strategies for making analyses reliable in highly atypical brain anatomies.</div>
         </div>
 
     </div>
@@ -531,72 +573,84 @@
             <div class="pub-title"><a href="https://doi.org/10.1162/IMAG.a.144">Widespread Associations Between Behavioral Metrics and Brain Microstructure in ASD Suggest Age Mediates Subtypes</a></div>
             <div class="pub-authors">Ressa HJ, Newman BT, <span class="me">Jacokes Z</span>, McPartland JC, Kleinhans NM, Druzgal TJ, Pelphrey KA, Van Horn JD.</div>
             <div class="pub-venue">Imaging Neuroscience. 2025;3.</div>
+            <div class="pub-desc">Links between behavior and brain structure in autism shift with development, suggesting that apparent “subtypes” may reflect age-dependent changes rather than fixed categories.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="https://doi.org/10.1371/journal.pone.0301964">Conduction Velocity, G-ratio, and Extracellular Water as Microstructural Characteristics of Autism Spectrum Disorder</a></div>
             <div class="pub-authors">Newman BT, <span class="me">Jacokes Z</span>, Venkadesh S, Webb SJ, Kleinhans NM, McPartland JC, et al.</div>
             <div class="pub-venue">PLoS ONE. 2024;19(4):e0301964.</div>
+            <div class="pub-desc">Uses advanced MRI-derived metrics to show that differences in signal transmission along white matter pathways may underlie variability in how information is processed in autism.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Is Now the Time for Foundational Theory of Brain Connectivity?</a></div>
             <div class="pub-authors">Van Horn J, <span class="me">Jacokes Z</span>, Newman B, Henry T.</div>
             <div class="pub-venue">Neuroinformatics. 2023:1–3.</div>
+            <div class="pub-desc">Argues that neuroscience needs stronger theoretical frameworks, not just wider data collection efforts, to meaningfully understand how brain connectivity relates to disorders and behavior.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="https://doi.org/10.3389/fncom.2018.00093">Support Vector Machines, Multidimensional Scaling and MRI Reveal Structural Brain Abnormalities Associated with the Interaction Between ASD and Sex</a></div>
             <div class="pub-authors">Irimia A, Lei X, Torgerson CM, <span class="me">Jacokes Z</span>, Abe S, Van Horn JD.</div>
             <div class="pub-venue">Frontiers in Computational Neuroscience. 2018;12:93.</div>
+            <div class="pub-desc">Combines machine learning and imaging to show that sex meaningfully changes how autism-related brain differences appear, rather than simply adding variability.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Modeling Multiple Time Series Annotations as Noisy Distortions of the Ground Truth: An Expectation-Maximization Approach</a></div>
             <div class="pub-authors">Gupta R, Audhkhasi K, <span class="me">Jacokes Z</span>, Rozga A, Narayanan S.</div>
             <div class="pub-venue">IEEE Transactions on Affective Computing. 2018;9(1):76–89.</div>
+            <div class="pub-desc">Develops a method to recover reliable signals from inconsistent human annotations by treating each annotator as a noisy observer of an underlying truth.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Clinical Neuroimaging in the Preterm Infant: Diagnosis and Prognosis</a></div>
             <div class="pub-authors">Rodriguez M, Harmony T, Carrillo-Prado C, Van Horn JD, Irimia A, Torgerson C, <span class="me">Jacokes Z</span>.</div>
             <div class="pub-venue">NeuroImage: Clinical. 2017;16:355–368.</div>
+            <div class="pub-desc">Reviews how early brain imaging can be used to predict developmental outcomes in preterm infants, while highlighting the limits of current predictive approaches.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">The Connectomes of Males and Females with Autism Spectrum Disorder Have Significantly Different White Matter Connectivity Densities</a></div>
             <div class="pub-authors">Irimia A, Torgerson C, <span class="me">Jacokes Z</span>, Van Horn JD.</div>
             <div class="pub-venue">Scientific Reports. 2017;7:46401.</div>
+            <div class="pub-desc">Shows that large-scale brain wiring differs between males and females with autism, helping explain differences in how the condition presents.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Resting-State Functional Connectivity in Autism Spectrum Disorders: A Review</a></div>
             <div class="pub-authors">Hull J, <span class="me">Jacokes Z</span>, Torgerson C, Dokovna L, Irimia A, Van Horn JD.</div>
             <div class="pub-venue">Frontiers in Psychiatry. 2017;7:205.</div>
+            <div class="pub-desc">Synthesizes a fragmented literature on brain connectivity in autism, highlighting inconsistent findings and the need for more structured, theory-driven approaches.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Do Biological Sex and Early Developmental Milestones Predict the Age of First Concerns and Eventual Diagnosis in ASD?</a></div>
             <div class="pub-authors">Harrop C, Libsack E, Bernier R, Dapretto M, Jack A, McPartland J, Van Horn J, Webb S, Pelphrey K, GENDAAR Consortium.</div>
             <div class="pub-venue">Autism Research. 2021;14(5).</div>
+            <div class="pub-desc">Demonstrates that sex and early development shape when autism is recognized, suggesting diagnostic timing is influenced by more than symptom severity alone.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">A Neurogenetic Analysis of Female Autism</a></div>
             <div class="pub-authors">Jack A, Sullivan C, Aylward E, Bookheimer S, Dapretto M, Gaab N, Van Horn J, Eilbott J, <span class="me">Jacokes Z</span>, Torgerson C, et al.</div>
             <div class="pub-venue">Brain. 2021;awab064.</div>
+            <div class="pub-desc">Integrates genetic and brain imaging data to investigate why autism is diagnosed less frequently in females, pointing to distinct biological pathways.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Neural Responsivity to Social Rewards in Autistic Female Youth</a></div>
             <div class="pub-authors">Lawrence K, Hernandez L, Eilbott J, Jack A, Aylward E, Gaab N, Van Horn J, et al.</div>
             <div class="pub-venue">Translational Psychiatry. 2020;10:178.</div>
+            <div class="pub-desc">Shows that reward-related brain responses during social interactions differ in autistic females, offering insight into how social motivation varies across groups.</div>
         </div>
 
         <div class="pub-item">
             <div class="pub-title"><a href="#">Mild Cognitive Impairment and Structural Brain Abnormalities in a Sexagenarian with a History of Childhood TBI</a></div>
             <div class="pub-authors">Van Horn JD, Irimia A, Torgerson C, Bhattrai A, <span class="me">Jacokes Z</span>, Vespa P.</div>
             <div class="pub-venue">Journal of Neuroscience Research. 2018;96(4):652–660.</div>
+            <div class="pub-desc">Case study linking early brain injury to later-life cognitive decline, illustrating how long-term structural changes can unfold over decades.</div>
         </div>
 
     </div>
@@ -612,10 +666,10 @@
 
     <div class="projects-grid">
 
-        <a class="project-card" href="https://github.com/zjacokes" target="_blank" rel="noopener">
-            <div class="project-card-name">Project Name</div>
-            <div class="project-card-desc">Brief description of what this project does and why it matters. Replace with your actual project details.</div>
-            <div class="project-card-meta">Python</div>
+        <a class="project-card" href="https://github.com/zjacokes/pca-lasso-feature-recovery" target="_blank" rel="noopener">
+            <div class="project-card-name">PCA-LASSO Feature Recovery</div>
+            <div class="project-card-desc">Tests when common ML pipelines fail to recover true signal in noisy, high-dimensional settings, with implications for real-world data like neuroimaging and clinical datasets.</div>
+            <div class="project-card-meta">Python · scikit-learn</div>
         </a>
 
         <a class="project-card" href="https://github.com/zjacokes" target="_blank" rel="noopener">
