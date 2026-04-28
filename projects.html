@@ -1,0 +1,123 @@
+---
+layout: default
+title: Projects
+description: "Data science and machine learning projects spanning neuroimaging pipelines, clinical data systems, and reproducible research infrastructure."
+---
+
+<style>
+    /* --- PROJECTS --- */
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 1.4rem;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
+    .project-card:hover {
+        border-color: var(--accent);
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .project-card-name {
+        font-family: var(--mono);
+        font-size: 0.88rem;
+        font-weight: 500;
+        color: var(--accent);
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card-desc {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        line-height: 1.6;
+    }
+
+    .project-card-meta {
+        margin-top: 0.8rem;
+        font-size: 0.75rem;
+        color: var(--text-light);
+        font-family: var(--mono);
+    }
+
+    .project-card.placeholder {
+        border-style: dashed;
+        opacity: 0.5;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .project-card.placeholder .project-card-name {
+        color: var(--text-light);
+    }
+
+    .projects-note {
+        margin-top: 1.5rem;
+        font-size: 0.88rem;
+        color: var(--text-light);
+    }
+
+    .projects-note a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    .projects-note a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="page-hero">
+    <h1>Projects</h1>
+    <p>Selected work in data science, machine learning, and research infrastructure.</p>
+</div>
+
+<div class="section-label">Projects</div>
+
+<div class="projects-grid">
+
+    <a class="project-card" href="https://github.com/zjacokes/pca-lasso-feature-recovery" target="_blank" rel="noopener">
+        <div class="project-card-name">PCA-LASSO Feature Recovery</div>
+        <div class="project-card-desc">Tests when common ML pipelines fail to recover true signal in noisy, high-dimensional settings, with implications for real-world data like neuroimaging and clinical datasets.</div>
+        <div class="project-card-meta">Python · scikit-learn</div>
+    </a>
+
+    <div class="project-card placeholder">
+        <div class="project-card-name">Coming soon</div>
+        <div class="project-card-desc">More projects being documented and uploaded.</div>
+        <div class="project-card-meta">—</div>
+    </div>
+
+    <div class="project-card placeholder">
+        <div class="project-card-name">Coming soon</div>
+        <div class="project-card-desc">More projects being documented and uploaded.</div>
+        <div class="project-card-meta">—</div>
+    </div>
+
+    <div class="project-card placeholder">
+        <div class="project-card-name">Coming soon</div>
+        <div class="project-card-desc">More projects being documented and uploaded.</div>
+        <div class="project-card-meta">—</div>
+    </div>
+
+</div>
+
+<p class="projects-note">
+    More on <a href="https://github.com/zjacokes" target="_blank" rel="noopener">GitHub →</a>
+</p>

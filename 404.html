@@ -1,0 +1,72 @@
+---
+layout: default
+title: Page Not Found
+---
+
+<style>
+    .not-found {
+        text-align: center;
+        padding: 4rem 0;
+    }
+
+    .not-found-code {
+        font-family: var(--mono);
+        font-size: 4rem;
+        font-weight: 500;
+        color: var(--border);
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+
+    .not-found h1 {
+        font-family: var(--serif);
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: var(--text);
+        margin-bottom: 0.75rem;
+    }
+
+    .not-found p {
+        font-size: 0.95rem;
+        color: var(--text-muted);
+        margin-bottom: 2rem;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .not-found-links {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .not-found-links a {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--accent);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border: 1px solid var(--accent);
+        border-radius: 4px;
+        transition: all 0.2s;
+    }
+
+    .not-found-links a:hover {
+        background: var(--accent);
+        color: #fff;
+    }
+</style>
+
+<div class="not-found">
+    <div class="not-found-code">404</div>
+    <h1>Page not found</h1>
+    <p>This page doesn't exist or may have moved. If you followed a link here, it's probably a remnant from a previous version of the site.</p>
+    <div class="not-found-links">
+        <a href="/">About</a>
+        <a href="/research">Research</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+    </div>
+</div>

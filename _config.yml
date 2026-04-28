@@ -1,0 +1,24 @@
+# Site settings
+title: "Zachary Jacokes, Data Scientist"
+description: "Data scientist specializing in biomedical and neuroscience data systems, full-time data enthusiast."
+url: "https://www.jacokes.com"
+baseurl: ""
+author: "Zachary Jacokes"
+# post-grad
+# author: "Zachary Jacokes, Ph.D."
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
